@@ -1,0 +1,20 @@
+VBox{
+    -fx-background-color: #c6dfff;
+
+    -fx-background-image: url("image.jpg");
+        -fx-background-position: center center;
+         -fx-background-repeat: no-repeat;
+          -fx-background-size: 1300 800;
+         -fx-background-size: cover;
+
+}
+Button:hover{
+    -fx-background-color: 'orange';
+}
+
+Slider{
+    -fx-color:'blue';
+}
+Slider:hover{
+      -fx-background-color: 'orange';
+}
